@@ -150,6 +150,27 @@ input[type="number"] {
   -moz-appearance: textfield;
 }
 
+footer {
+  background: #000;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+  margin-top: 2.5rem;
+}
+
+footer > div {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+footer > div p {
+  font-size: 1rem;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  cursor: default;
+} 
+
 @media (min-width: 768px) {
   body {
     -webkit-box-orient: horizontal;
